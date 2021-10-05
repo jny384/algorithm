@@ -12,7 +12,7 @@ for i in range(len(list)) : # 0과 음수, 1, 양수 나누기
         negative.append(list[i])
 
 # 절대값이 큰 수부터 오게 정렬
-positive.sort(reverse=True) #내림차순
+positive.sort(reverse=True) # 양수는 내림차순
 negative.sort()
 
 def match_number(L) : # 양수 음수 리스트 더해주는 과정이 같아서 함수로 묶음
