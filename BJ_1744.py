@@ -1,9 +1,7 @@
-
 import sys
 input = sys.stdin.readline
 
 list = int(input())
-# list = list(map(int, input().split()))
 positive = []
 negative = []
 one = 0
