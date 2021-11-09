@@ -1,4 +1,6 @@
-import sys (N, K) = map(int, sys.stdin.readline().split())
+import sys 
+
+(N, K) = map(int, sys.stdin.readline().split())
 
 item = [[0, 0]]
 
