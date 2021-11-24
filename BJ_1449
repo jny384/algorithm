@@ -1,0 +1,17 @@
+import sys
+input = sys.stdin.readline
+
+N, L = map(int, input().split())
+
+pipe = sorted(list(map(int, input().split())))
+cnt = 1
+end = pipe[0] -1 + L
+
+for i in range(0,N) :
+    if pipe[i] > end :
+      end = pipe[i] -1 + L
+      cnt += 1
+    else:
+      contine
+      
+print(cnt)
